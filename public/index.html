@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI時尚服飾 - 在線服飾商品展示與AI客服</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">AI時尚服飾</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">首頁</a></li>
+                    <li><a href="#products">商品</a></li>
+                    <li><a href="#about">關於</a></li>
+                    <li><a href="#contact">聯絡</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>發現您的完美風格</h2>
+                <p>透過AI智能客服，獲取個人化穿搭建議與尺寸推薦</p>
+                <button class="cta-button">開始探索</button>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>熱門商品</h2>
+                <div class="product-grid">
+                    <!-- 商品卡片將動態生成 -->
+                </div>
+            </div>
+        </section>
+
+        <section id="chat" class="chat-section">
+            <div class="container">
+                <h2>AI智能客服</h2>
+                <div class="chat-container">
+                    <div id="chat-messages" class="chat-messages"></div>
+                    <div class="chat-input">
+                        <input type="text" id="chat-input" placeholder="輸入您的問題...">
+                        <button id="send-button">發送</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>關於我們</h2>
+                <p>我們致力於提供優質的服飾商品，並透過AI技術提升您的購物體驗。</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>聯絡我們</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="您的姓名" required>
+                    <input type="email" id="email" placeholder="您的email" required>
+                    <textarea id="message" placeholder="您的訊息" required></textarea>
+                    <button type="submit">發送訊息</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI時尚服飾. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

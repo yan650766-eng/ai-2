@@ -1,0 +1,20 @@
+{
+  "name": "ai-fashion-site",
+  "version": "1.0.0",
+  "description": "Online fashion product service introduction website with AI customer service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  },
+  "keywords": ["fashion", "ai", "chatbot", "vercel"],
+  "author": "yan650766-eng",
+  "license": "MIT"
+}
