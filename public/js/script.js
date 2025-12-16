@@ -16,21 +16,21 @@ const products = [
     id: 1,
     name: '經典白T恤',
     price: 'NT$ 599',
-    image: 'https://via.placeholder.com/300x200/FFFFFF/000000?text=White+T-Shirt',
+    image: 'assets/t.jpg',
     description: '100%棉質，舒適透氣，適合日常穿搭'
   },
   {
     id: 2,
     name: '牛仔外套',
     price: 'NT$ 1,299',
-    image: 'https://via.placeholder.com/300x200/4169E1/FFFFFF?text=Denim+Jacket',
+    image: 'assets/j.jpg',
     description: '經典藍色牛仔，百搭實用'
   },
   {
     id: 3,
     name: '休閒長褲',
     price: 'NT$ 899',
-    image: 'https://via.placeholder.com/300x200/808080/FFFFFF?text=Casual+Pants',
+    image: 'assets/p.jpg',
     description: '彈性面料，舒適自在'
   }
 ];
